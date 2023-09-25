@@ -3,16 +3,20 @@
     padding:0;
 } */
 
-h1,h2,h4,h6{
+h1,h2,h4,h6,div{
     font-family: 'Black Ops One', cursive;
 }
 h1 {
     margin:60;
-    font-size: 100;
+    font-size: 80;
 }
 h2{
     font-size: 50;
 }
 p{
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Sedgwick Ave Display', serif;
+    font-size: 20;
+}
+div{
+    font-size: 100;
 }
