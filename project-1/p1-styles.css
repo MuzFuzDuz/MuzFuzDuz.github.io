@@ -21,10 +21,15 @@ div{
     font-size: 100;
 }
 
-#button {
-    width: 66px;
-    height: 66px;
+button,h1 {
+    display: flex;
+}
+
+button {
+    width: 45px;
+    height: 45px;
     background-color: var(--orange);
     margin-left: 31.28px;
     border-radius: 50%;
+    background-color: #7EB66A;
 }
