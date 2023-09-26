@@ -19,11 +19,12 @@ p{
 }
 div{
     font-size: 100;
-    
 }
 
-
-h4,h6{
-    font-size: 30;
-    
+#button {
+    width: 66px;
+    height: 66px;
+    background-color: var(--orange);
+    margin-left: 31.28px;
+    border-radius: 50%;
 }
