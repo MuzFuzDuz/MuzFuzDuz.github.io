@@ -3,25 +3,13 @@
     padding:0;
 } */
 
-h1,h2,h4,h6,div{
+h1,h2,h4,h6{
     font-family: 'Black Ops One', cursive;
 }
 h1 {
-    margin:60;
-    font-size: 80;
+    margin:100;
+    font-size: 500;
 }
-h2{
-    font-size: 50;
-}
-p{
-    font-family: 'Sedgwick Ave Display', serif;
-    font-size: 20;
-}
-div{
-    font-size: 100;
-}
-
-
 button,h1 {
     display: flex;
 }
@@ -33,4 +21,28 @@ button {
     margin-left: 31.28px;
     border-radius: 50%;
     background-color: #7EB66A;
+}
+
+
+h2{
+    font-size: 50;
+}
+p{
+    font-family: 'Sedgwick Ave Display', serif;
+    font-size: 20;
+}
+
+
+h4, h6, h7{
+    font-size: 20;
+    font-family: 'Black Ops One', cursive;
+}
+
+footer{
+    display: flex;
+    Margin: 25%;
+    font-size: 20;
+}
+img{
+    size: 40;
 }
