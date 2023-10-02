@@ -5,17 +5,38 @@
 
 body{
     font-family: 'Black Ops One', cursive;
+    /* margin:0;
+    padding:0;
+    color:#FFFFFF; */
 }
+
+/* .container{
+    Margin:0 auto;
+    width:800;
+} */
+
+
 
 .letterform-character{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin:0;
+    padding:0;
 }
 .letterform-character h1{
-    margin:100;
+    margin:0;
     font-size:500;
+    color: #1D621C;
+    padding:0
+    
 }
+
+.letterform-character h2{
+    font-size: 100;
+    /* display:flex; */
+}
+
 #button{
     Height: 60px;
     width: 60px;
@@ -24,18 +45,18 @@ body{
     cursor:pointer;
 }
 
-.body h1{
-    font-size: 50;
-}
+
 
 .body{
     margin: 10%;
     display: flex;
-}
-
-.body p{
     font-family: 'Sedgwick Ave Display', serif;
     font-size: 20;
+}
+
+.letters{
+    display: inline;
+
 }
 
 
