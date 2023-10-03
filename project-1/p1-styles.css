@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Black Ops One', cursive;
+    background-color: #f5e1ca;
     /* margin:0;
     padding:0;
     color:#FFFFFF; */
@@ -15,25 +16,29 @@ body{
     width:800;
 } */
 
+.container{
+    width: 938px;
+    margin: 0 auto;
+}
 
 
 .letterform-character{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin:0;
     padding:0;
 }
 .letterform-character h1{
-    margin:0;
-    font-size:500;
+    /* margin-top:-100px; */
+    font-size:500px;
     color: #1D621C;
-    padding:0
-    
+    padding:0;
 }
 
 .letterform-character h2{
-    font-size: 100;
+    font-size: 100px;
+    /* overflow-wrap: ; */
     /* display:flex; */
 }
 
@@ -45,28 +50,36 @@ body{
     cursor:pointer;
 }
 
-
+.letters{
+    width: 187px;
+    height:579px;
+    font-size: 128px;
+    overflow: ;
+}
 
 .body{
-    margin: 10%;
-    display: flex;
+    /* margin-left:auto;
+    margin-right: auto; */
+    /* display: flex;
     font-family: 'Sedgwick Ave Display', serif;
-    font-size: 20;
+    font-size: 20; */
 }
 
 .letters{
-    display: inline;
-
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
 
 
 .footer{
-    font-size: 20;
+    /* font-size: 20; */
     font-family: 'Black Ops One', cursive;
+    margin: ;
+    width: ;
 }
 
 .footer{
-    display: flex;
-    Margin: 25%;
-    font-size: 20;
+    /* display: flex; */
+    /* Margin: 25%;
+    font-size: 20; */
 }
