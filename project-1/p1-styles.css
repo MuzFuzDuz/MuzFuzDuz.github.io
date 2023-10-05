@@ -1,11 +1,14 @@
-h1,h2,h3,h4,h5,h6,p{
+/* h1,h2,h3,h4,h5,h6,p{
     margin:0;
     padding:0;
-}
+} */
 
 body{
     font-family: 'Black Ops One', cursive;
     background-color: #f5e1ca;
+    display: flex;
+    width: 1024;
+    height: 1366;
 }
 
 .container{
@@ -20,7 +23,7 @@ body{
 .letterform-character{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     margin:0;
     padding:0;
 }
@@ -33,8 +36,14 @@ body{
 
 .letterform-character h2{
     font-size: 100px;
-    /* overflow-wrap: ; */
-    /* display:flex; */
+}
+
+.letterform-character img{
+
+}
+
+.letters{
+    
 }
 
 #button{
@@ -50,29 +59,40 @@ body{
     height:579px;
     font-size: 128px;
     color: #358933;
-    overflow: ;
+    display: inline;
+    width: 585px;
+    overflow: hidden;
+
+    /* overflow: ; */
 }
 
-.body{
+/* .body{
     overflow: hidden;
-}
+} */
 
 .letters{
-    writing-mode: vertical-lr;
+    /* writing-mode: vertical-lr; */
     text-orientation: upright;
 }
 
-
 .footer{
-    /* font-size: 20; */
-    font-family: 'Black Ops One', cursive;
     display: flex;
-    margin: 0;
-    width: ;
+    Margin: 0;
+    font-family: 'Black Ops One', cursive;
+    justify-content: space-evenly;
+    font-size: 20;
+   
 }
 
-.footer{
-    /* display: flex; */
-    /* Margin: 25%;
-    font-size: 20; */
+.left-col{
+    display: flex;
+}
+
+.right-col{
+    display: flex;
+}
+
+.left-col img {
+    width: 154;
+    height: 178;
 }
