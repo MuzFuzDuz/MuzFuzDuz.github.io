@@ -1,24 +1,19 @@
-/* h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p{
     margin:0;
     padding:0;
-} */
+}
 
 body{
     font-family: 'Black Ops One', cursive;
     background-color: #f5e1ca;
-    /* margin:0;
-    padding:0;
-    color:#FFFFFF; */
 }
 
-/* .container{
-    Margin:0 auto;
-    width:800;
-} */
-
 .container{
-    width: 938px;
-    margin: 0 auto;
+    width:938px;
+    Margin:0 auto;
+    width:187px;
+    height: 579px;
+    font-size: 128px;
 }
 
 
@@ -54,15 +49,12 @@ body{
     width: 187px;
     height:579px;
     font-size: 128px;
+    color: #358933;
     overflow: ;
 }
 
 .body{
-    /* margin-left:auto;
-    margin-right: auto; */
-    /* display: flex;
-    font-family: 'Sedgwick Ave Display', serif;
-    font-size: 20; */
+    overflow: hidden;
 }
 
 .letters{
@@ -74,7 +66,8 @@ body{
 .footer{
     /* font-size: 20; */
     font-family: 'Black Ops One', cursive;
-    margin: ;
+    display: flex;
+    margin: 0;
     width: ;
 }
 
