@@ -1,0 +1,50 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+    padding:0;
+}
+
+#character {
+    width: 500px;
+}
+
+body {
+    font-family: 'Black Ops One', cursive;
+    background-color: #f5e1ca;
+}
+.container {
+    width:938px;
+    margin:0 auto;
+}
+
+.letterform-character {
+    display: flex;
+}
+
+.letterform-character h2{
+    font-size: 100px;
+}
+
+#button {
+    Height: 60px;
+    width: 60px;
+
+}
+#button:hover {
+    cursor:pointer;
+}
+
+.content {
+    display: flex;
+}
+.letters {
+    font-size: 128px;
+    color: #358933;
+    width: 297px;
+    height: 763px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+.footer {
+    width: 574px;
+}
