@@ -5,15 +5,25 @@ h1,h2,h3,h4,h5,h6,p {
 
 #character {
     width: 500px;
+    height: 500px;
+    position:absolute;
+}
+
+#letter-analysis {
+    position: relative;
+    width: 495px;
+    height: 495px;
 }
 
 body {
-    font-family: 'Black Ops One', cursive;
+    font-family:'black ops one', serif;
     background-color: #f5e1ca;
 }
+
 .container {
     width:938px;
     margin:0 auto;
+    /* padding: 10%; */
 }
 
 .letterform-character {
@@ -27,7 +37,7 @@ body {
 #button {
     Height: 60px;
     width: 60px;
-
+    
 }
 #button:hover {
     cursor:pointer;
@@ -35,6 +45,7 @@ body {
 
 .content {
     display: flex;
+    align-content: center;
 }
 .letters {
     font-size: 128px;
@@ -47,4 +58,9 @@ body {
 
 .footer {
     width: 574px;
+}
+
+.right-col {
+    display:flex
+    /* flex-direction: column; */
 }
