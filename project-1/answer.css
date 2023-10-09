@@ -60,11 +60,12 @@ body {
     display: flex;
     align-content: center;
 }
+
 .letters {
     font-size: 128px;
     color: #358933;
-    width: 297px;
-    height: 763px;
+    width: 187px;
+    height: 579px;
     overflow-x: hidden;
     overflow-y:scroll;
 }
@@ -73,7 +74,27 @@ body {
     width: 574px;
 }
 
+.p {
+    font-size: 28px;
+    width: 574px;
+    height: 326px;
+}
+
+.left-col {
+    line-height: 40px;
+}
+.headshot{
+    align-content: center;
+}
+
 .right-col {
-    display:flex
-    /* flex-direction: column; */
+    display:flex;
+    line-height: 30px;
+    flex-direction: column;
+    text-align: right;
+}
+
+.right-col h2 {
+    font-size: 10px;
+    line-height: 10px;
 }
