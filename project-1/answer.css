@@ -6,18 +6,30 @@ h1,h2,h3,h4,h5,h6,p {
 #character {
     width: 500px;
     height: 500px;
-    position:absolute;
+    position:relative;
 }
 
 #letter-analysis {
-    position: relative;
+    position: absolute;
     width: 495px;
     height: 495px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#letter-analysis.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s;
+    
 }
 
 body {
     font-family:'black ops one', serif;
     background-color: #f5e1ca;
+    /* width: 1024px;
+    height: 1366px; */
 }
 
 .container {
@@ -41,6 +53,7 @@ body {
 }
 #button:hover {
     cursor:pointer;
+
 }
 
 .content {
