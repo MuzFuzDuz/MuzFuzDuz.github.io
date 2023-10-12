@@ -88,8 +88,8 @@ width:200px;
     /* flex-wrap: wrap; */
 }
 
-.left-col img {
-    width: 154px;
-    height: 178px;
+#headshot {
+    width: 200px;
+    height: 225px;
 }
 
