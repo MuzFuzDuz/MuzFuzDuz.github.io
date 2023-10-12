@@ -40,6 +40,7 @@ body {
 
 .letterform-character {
     display: flex;
+    align-items: center;
 }
 
 .letterform-character h2{
