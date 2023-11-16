@@ -1,0 +1,41 @@
+/* This is the main css stylesheet for MuzFuzDuz.github.io */
+
+/* Typography ******************/
+:root {
+    --serif:'Poppins', sans-serif;
+    /* --sans:; */
+
+}
+
+/* color ******************/
+
+/* Navigation ******************/
+
+/* Layout ******************/
+section {
+    width:100vw;
+    height: 100vh;
+    padding: 60px;
+}
+#first-section {
+    background-color: red;
+    font-family: var(--serif);
+}
+#second-section {
+    background-color: blue;
+}
+#third-section {
+    background-color: green;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.chunk {
+    background-color: white;
+}
+.image {
+    width:500px;
+    height:300px;
+    background-color: aqua;
+}
