@@ -12,20 +12,31 @@
 /* Navigation ******************/
 
 /* Layout ******************/
-section {
+/* section {
     width:100vw;
     height: 100vh;
     padding: 60px;
+} */
+
+.container { 
+    width: 900px;
+    background-color: #E5F1FB;
 }
+
 #first-section {
     background-color: red;
     font-family: var(--serif);
+    display: row;
+    height: 850px;
 }
 #second-section {
     background-color: blue;
+    display: row-reverse;
+    height: 850px;
 }
 #third-section {
     background-color: green;
+    height: 850px;
 }
 .flex {
     display: flex;
@@ -38,4 +49,26 @@ section {
     width:500px;
     height:300px;
     background-color: aqua;
+}
+
+/* Bass Html *****************************/
+nav {
+    display: contents;
+    width: 100%;
+    justify-content: space-between;
+}
+.Header-Image{
+    padding: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: contents;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5F1FB;
+    width: 100%;
+    padding:20px 0;
+
 }
