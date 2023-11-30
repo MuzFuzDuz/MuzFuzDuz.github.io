@@ -59,13 +59,14 @@ body {
 .freshwater {
     font-size: 80px;
     align-items: center;
+    color: black;
 }
 
 #homepage section{
     font-family: var(--serif);
     width: 1222px;
     height: 850px;
-    padding: 60px;
+    /* padding: 60px; */
 
 }
 #homepage #first-section {
@@ -104,19 +105,24 @@ body {
     padding-bottom: 20px;
 }
 
-#header, h1 {
+#heading, h1 {
     font-size: 48px;
+    color: #D42A2D;
 }
 
+a {
+    color: black;
+}
 
 .breadcrumb {
     /* padding-left: 10px; */
-    background-color: lavender;
+    /* background-color: lavender; */
     font-size: 20px;
     font-weight: bold;
+    color: #20618B;
 }
 
-#header h1 {
+#header, h1 {
     font-size: 48px;
 }
 
@@ -128,7 +134,35 @@ body {
 .header {
     background-color: #A7C2CB;
 }
+.button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 15px;
+    background-color: #D42A2D;
+    transition:backgound-color .5s ease-in-out;
+    text-decoration: none;
+}
 
+a.button {
+    color: white;
+}
+
+.button:hover {
+    background-color: #FFDC4B;
+    transition: .5s ease-in-out;
+}
+
+a.button:hover {
+    color: #D42A2D;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
 
 /* Bass Html *****************************/
 
