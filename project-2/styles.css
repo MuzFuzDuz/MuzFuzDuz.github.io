@@ -33,9 +33,14 @@
 body {
     width: 1222px;
     margin: 0 auto;
+    background-color: #E5F1FB;
 }
 
-#container p {
+.container, h2 {
+    font-size: 20px;
+}
+
+#container, p {
     font-size: 16px;
 }
 
@@ -50,6 +55,12 @@ body {
     width: 1222px;
     /* height: 627.55px; */
 }
+
+.freshwater {
+    font-size: 80px;
+    align-items: center;
+}
+
 #homepage section{
     font-family: var(--serif);
     width: 1222px;
@@ -99,8 +110,14 @@ body {
 
 
 .breadcrumb {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     background-color: lavender;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header h1 {
+    font-size: 48px;
 }
 
 .writing {
