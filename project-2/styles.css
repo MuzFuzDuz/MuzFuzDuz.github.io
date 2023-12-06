@@ -4,7 +4,9 @@
 
 /* Typography ******************/
 :root {
-    --serif:'Poppins', sans-serif;
+    --sans:'Poppins', sans-serif;
+    --infisherman-yellow: #FFDC4B;
+    --infisherman-red: #D42A2D;
     /* --sans:; */
 
 }
@@ -20,6 +22,11 @@
     padding: 60px;
 } */
 
+#container {
+    width: 920px;
+    margin: 0 auto;
+}
+
 .container { 
     width: 900px;
     background-color: #A7C2CB;
@@ -31,9 +38,10 @@
 }
 
 body {
-    width: 1222px;
+    /* width: 1222px; */
     margin: 0 auto;
     background-color: #E5F1FB;
+    font-family: var(--sans);
 }
 
 .container, h2 {
@@ -58,7 +66,7 @@ body {
 
 .freshwater {
     font-size: 80px;
-    align-items: center;
+    text-align: center;
     color: black;
 }
 
@@ -83,7 +91,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 /* .flex-chunk1 {
@@ -99,6 +107,7 @@ body {
     width: 1120px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 #header-img {
@@ -131,10 +140,19 @@ a {
     padding-left: 10px;
 }
 
+h2 {
+    color: #20618B;
+}
+
+h3 {
+    color: #20618B;
+}
+
 .header {
     background-color: #A7C2CB;
 }
 .button{
+    margin-top: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 40px;
@@ -143,6 +161,7 @@ a {
     background-color: #D42A2D;
     transition:backgound-color .5s ease-in-out;
     text-decoration: none;
+    display: inline-block;
 }
 
 a.button {
@@ -150,18 +169,32 @@ a.button {
 }
 
 .button:hover {
-    background-color: #FFDC4B;
-    transition: .5s ease-in-out;
+    background-color: var(--infisherman-yellow);
+    transition: background-color .5s ease-in-out;
 }
 
-a.button:hover {
-    color: #D42A2D;
+footer a.button {
+    background-color: var(--infisherman-yellow);
+    transition: background-color .5s ease-in-out;
+}
+
+footer a.button:hover {
+    background-color: var(--infisherman-red);
 }
 
 #video {
     display: flex;
-    justify-content: center;
-    padding: 50px;
+    height: 600px;
+    margin: 50px 0;
+}
+
+footer {
+    background-color: #D42A2D;
+    height: 75px;
+    /* width: 100vw;
+    position: absolute;
+    left: 0;
+    bottom: 0; */
 }
 
 /* Bass Html *****************************/
